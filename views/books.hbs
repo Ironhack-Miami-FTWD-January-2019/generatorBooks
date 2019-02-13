@@ -1,0 +1,8 @@
+books
+
+{{#each booksForHBS}} 
+  <a href="book/{{id}}">
+    <li>{{title}}</li><li>{{description}}</li><li>{{author}}</li>
+  </a>
+  <hr>
+{{/each}}
